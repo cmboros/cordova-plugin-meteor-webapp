@@ -27,7 +27,8 @@
     "test": "cordova-paramedic --plugin . --platform ios --target 'iPhone-11-Pro-Max' --args=--buildFlag='-UseModernBuildSystem=0' --verbose"
   },
   "dependencies": {
-    "xcode": "^2.0.0"
+    "xcode": "^2.0.0",
+    "properties-parser": "^0.3.1",
   },
   "devDependencies": {
     "cordova": "^10.0.0",
